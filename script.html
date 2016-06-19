@@ -27,7 +27,7 @@ function init() {
 	var loader = new createjs.LoadQueue(false);
 	loader.addEventListener("fileload", handleFileLoad);
 	loader.addEventListener("complete", handleComplete);
-	loader.loadFile({src:"images/script_atlas_.json", type:"spritesheet", id:"script_atlas_"}, true);
+	loader.loadFile({src:"script_atlas_.json", type:"spritesheet", id:"script_atlas_"}, true);
 	loader.loadManifest(lib.properties.manifest);
 }
 
